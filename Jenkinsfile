@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git';
+                    git 'https://github.com/Kiran12131/maven-nexus.git';
                 }
             }
         }
