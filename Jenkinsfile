@@ -10,7 +10,7 @@ pipeline {
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "Nexusartifact"
         // Jenkins credential id to authenticate to Nexus OSS
-        NEXUS_CREDENTIAL_ID = "nexus_creds"
+        NEXUS_CREDENTIAL_ID = "nexus-creds"
         PATH = "$PATH:/usr/share/maven/bin"
     }
     stages {
